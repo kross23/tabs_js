@@ -1,0 +1,40 @@
+.tabs{
+padding: 0 10rem;
+justify-content: center;
+
+//max-width: 6rem;
+    &__nav{
+        display: flex;
+        list-style: none;
+        &-btn{
+            padding: 0.4rem 1.5rem;
+            font-size: 1rem;
+            &:focus{
+                border:solid 2px red;
+            }
+            &--active{
+                opacity: 0.6;
+            }
+        }
+
+        &-item{
+            &:not(:last-child){
+                padding-right: 2rem;
+            }
+        }
+    }
+
+    &__panel{
+        display: none;
+        width: 100%;
+        font-size: 2rem;
+        border: solid 1px white;
+        height: 60vh;
+        text-align: center;
+        &--active{
+            display: block;
+        }   
+    }
+   
+
+}

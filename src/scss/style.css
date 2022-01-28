@@ -1,0 +1,50 @@
+.tabs {
+  padding: 0 10rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tabs__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.tabs__nav-btn {
+  padding: 0.4rem 1.5rem;
+  font-size: 1rem;
+}
+
+.tabs__nav-btn:focus {
+  border: solid 2px red;
+}
+
+.tabs__nav-btn--active {
+  opacity: 0.6;
+}
+
+.tabs__nav-item:not(:last-child) {
+  padding-right: 2rem;
+}
+
+.tabs__panel {
+  display: none;
+  width: 100%;
+  font-size: 2rem;
+  border: solid 1px white;
+  height: 60vh;
+  text-align: center;
+}
+
+.tabs__panel--active {
+  display: block;
+}
+
+body {
+  background-color: black;
+  color: blanchedalmond;
+  font-size: 10px;
+}
+/*# sourceMappingURL=style.css.map */

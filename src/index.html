@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/normalize.css">
+    <link rel="stylesheet" href="./scss/style.css">
+    <script defer src="./javascript/tabs.js"></script>
+    <script defer src="./javascript/script.js"></script>
+    <title>tabs</title>
+</head>
+<body>
+    <div class="tabs" data-tabs="tab1">
+        <ul class="tabs__nav">
+            <li class="tabs__nav-item">
+                <button class="tabs__nav-btn tabs__nav-btn--active" type="button">tab-1</button>
+            </li>
+            <li class="tabs__nav-item">
+                <button class="tabs__nav-btn" type="button" >tab-2</button>
+            </li>
+            <li class="tabs__nav-item">
+                <button class="tabs__nav-btn" type="button">tab-3</button>
+            </li>
+        </ul>
+        <div class="tabs__panel tabs__panel--active">
+            <h1>один контент</h1>
+            <img src="./img/greg-rakozy-vw3Ahg4x1tY-unsplash.jpg" 
+            width="220"
+            height="220"
+            alt="" srcset="">
+        </div>
+        <div class="tabs__panel">
+            <h1>два контент</h1>
+            <img src="./img/kobu-agency-ipARHaxETRk-unsplash.jpg"
+            width="220"
+            height="220"
+            alt="" srcset="">
+        </div>
+        <div class="tabs__panel">
+            <h1>три контент</h1>
+            <img src="./img/niels-kehl-6hpbjaAubDc-unsplash.jpg"
+            width="220"
+            height="220"
+            alt="" srcset="">
+        </div>
+    </div>
+    <div class="tabs" data-tabs="tab2"></div>
+
+</body>
+</html>
